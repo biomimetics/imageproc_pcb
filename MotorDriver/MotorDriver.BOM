@@ -1,0 +1,19 @@
+Bill of Materials for:
+Z:\research\Electronics\boards\MotorDriver\MotorDriver.BOM
+
+Item	Count	Label-Value	Attributes		Designation
+1	1	<4.2V		Pad-2			Battery
+2	2	1nF		SM/C/0402		C1,C3
+3	1	22nF		SM/C/0402		C2
+4	1	Flap Control	Pad-2			CON1
+5	1	Flapping Motor	Pad-2			CON2
+6	1	Steer Control	Pad-2			CON3
+7	1	Steering Motor	Pad-2			CON4
+8	1	PMEG2015EJ	SM/D/SC90/KA		D1
+9	1	ZXMHC3A01T8	SM-8			H1
+				Complementary 30V-2.3A-LogicOn Enhancement Mode MOSFET H-bridge
+10	1	ZXMN2B01F	SOT23/GSD		Q1
+				IC-MOSFET N-ch 20V-2.1A-LogicOn
+11	1	100k		SM/R/0402		R1
+12	3	1k		SM/R/0402		R2,R4,R5
+13	1	300		SM/R/0402		R3
