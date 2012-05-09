@@ -14,14 +14,14 @@ Citing the boards:
  If you would like to reference these boards in a publication, please cite
  these conference papers:
 
- - ImageProc v.1:
+ - *For ImageProc v.1.x:*
 
    | Fernando L. Garcia Bermudez and Ronald S. Fearing (2009)
    | `Optical Flow on a Flapping Wing Robot 
      <http://dx.doi.org/10.1109/IROS.2009.5354337>`_
    | In IROS 2009. St. Louis, MO, USA.
 
- - ImageProc v.2:
+ - *For ImageProc v.2.x:*
 
    | Stanley S. Baek, Fernando L. Garcia Bermudez, and Ronald S. Fearing (2011)
    | `Flight Control for Target Seeking by 13 gram Ornithopter 
