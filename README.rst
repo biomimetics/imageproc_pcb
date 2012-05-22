@@ -1,18 +1,20 @@
-This work is licensed under the `Creative Commons Attribution 3.0 Unported
-License <http://creativecommons.org/licenses/by/3.0/>`_.
+This work is licensed under the `Creative Commons Attribution 3.0
+Unported License <http://creativecommons.org/licenses/by/3.0/>`_.
 
-*imageproc-pcb:* **ImageProc printed circuit boards**
+================================
+ImageProc printed circuit boards
+================================
 
 Description:
  ImageProc family of printed circuit boards, which use Microchip's dsPIC
  architecture.
 
 Download boards:
- https://github.com/biomimetics/imageproc-pcb
+ https://github.com/biomimetics/imageproc_pcb
 
 Citing the boards:
- If you would like to reference these boards in a publication, please cite
- these conference papers:
+ If you would like to reference these boards in a publication, please
+ refer to the url and cite these conference papers:
 
  - *For ImageProc v.1.x:*
 
@@ -28,8 +30,8 @@ Citing the boards:
      <http://dx.doi.org/10.1109/IROS.2011.6094581>`_
    | In IROS 2011. San Francisco, CA, USA.
 
- This material is based upon work supported by the National Science Foundation
- under Grant No. IIS-0705429 and IIS-0931463. Any opinions, findings, and
- conclusions or recommendations expressed in this material are those of the
- author(s) and do not necessarily reflect the views of the National Science
- Foundation.
+ This material is based upon work supported by the National Science
+ Foundation under Grant No. IIS-0705429 and IIS-0931463. Any opinions,
+ findings, and conclusions or recommendations expressed in this material
+ are those of the author(s) and do not necessarily reflect the views of
+ the National Science Foundation.
