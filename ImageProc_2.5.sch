@@ -1598,6 +1598,10 @@ chip</description>
 <wire x1="0.4" y1="0.775" x2="0.175" y2="0.775" width="0.05" layer="51"/>
 <wire x1="-0.4" y1="-0.775" x2="-0.175" y2="-0.775" width="0.05" layer="51"/>
 <wire x1="0.4" y1="-0.775" x2="0.175" y2="-0.775" width="0.05" layer="51"/>
+<wire x1="0.6096" y1="1.3462" x2="0.6096" y2="-1.3462" width="0" layer="39" curve="-1.472223"/>
+<wire x1="0.6096" y1="-1.3462" x2="-0.6096" y2="-1.3462" width="0" layer="39"/>
+<wire x1="-0.6096" y1="-1.3462" x2="-0.6096" y2="1.3462" width="0" layer="39"/>
+<wire x1="-0.6096" y1="1.3462" x2="0.6096" y2="1.3462" width="0" layer="39"/>
 </package>
 <package name="LED5MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
