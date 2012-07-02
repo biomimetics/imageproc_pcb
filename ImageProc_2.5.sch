@@ -752,6 +752,8 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <wire x1="-2.5146" y1="2.2098" x2="-2.5146" y2="-2.2098" width="0" layer="39"/>
 <wire x1="-2.5146" y1="-2.2098" x2="2.5146" y2="-2.2098" width="0" layer="39"/>
 <wire x1="2.5146" y1="-2.2098" x2="2.5146" y2="2.2098" width="0" layer="39"/>
+<text x="-2.5" y="2.3" size="0.6096" layer="25" font="vector" ratio="25">&gt;NAME</text>
+<text x="-2.5" y="-2.9" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
 </package>
 <package name="USP-3">
 <smd name="2" x="-0.3" y="0.75" dx="0.35" dy="0.7" layer="1"/>
@@ -1073,10 +1075,26 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <rectangle x1="2.64" y1="-6.025" x2="2.86" y2="-5.025" layer="51" rot="R180"/>
 <rectangle x1="3.14" y1="-6.025" x2="3.36" y2="-5.025" layer="51" rot="R180"/>
 <rectangle x1="3.64" y1="-6.025" x2="3.86" y2="-5.025" layer="51" rot="R180"/>
-<wire x1="6.731" y1="6.731" x2="-6.731" y2="6.731" width="0" layer="39"/>
-<wire x1="-6.731" y1="6.731" x2="-6.731" y2="-6.731" width="0" layer="39"/>
-<wire x1="-6.731" y1="-6.731" x2="6.731" y2="-6.731" width="0" layer="39"/>
-<wire x1="6.731" y1="-6.731" x2="6.731" y2="6.731" width="0" layer="39"/>
+<wire x1="5.207" y1="5.207" x2="4.191" y2="5.207" width="0" layer="39"/>
+<wire x1="4.191" y1="5.207" x2="4.191" y2="6.731" width="0" layer="39"/>
+<wire x1="4.191" y1="6.731" x2="-4.191" y2="6.731" width="0" layer="39"/>
+<wire x1="-4.191" y1="6.731" x2="-4.191" y2="5.207" width="0" layer="39"/>
+<wire x1="-4.191" y1="5.207" x2="-5.207" y2="5.207" width="0" layer="39"/>
+<wire x1="-5.207" y1="5.207" x2="-5.207" y2="4.191" width="0" layer="39"/>
+<wire x1="-5.207" y1="4.191" x2="-6.731" y2="4.191" width="0" layer="39"/>
+<wire x1="-6.731" y1="4.191" x2="-6.731" y2="-4.191" width="0" layer="39"/>
+<wire x1="-6.731" y1="-4.191" x2="-5.207" y2="-4.191" width="0" layer="39"/>
+<wire x1="-5.207" y1="-4.191" x2="-5.207" y2="-5.207" width="0" layer="39"/>
+<wire x1="-5.207" y1="-5.207" x2="-4.191" y2="-5.207" width="0" layer="39"/>
+<wire x1="-4.191" y1="-5.207" x2="-4.191" y2="-6.731" width="0" layer="39"/>
+<wire x1="-4.191" y1="-6.731" x2="4.191" y2="-6.731" width="0" layer="39"/>
+<wire x1="4.191" y1="-6.731" x2="4.191" y2="-5.207" width="0" layer="39"/>
+<wire x1="4.191" y1="-5.207" x2="5.207" y2="-5.207" width="0" layer="39"/>
+<wire x1="5.207" y1="-5.207" x2="5.207" y2="-4.191" width="0" layer="39"/>
+<wire x1="5.207" y1="-4.191" x2="6.731" y2="-4.191" width="0" layer="39"/>
+<wire x1="6.731" y1="-4.191" x2="6.731" y2="4.191" width="0" layer="39"/>
+<wire x1="6.731" y1="4.191" x2="5.207" y2="4.191" width="0" layer="39"/>
+<wire x1="5.207" y1="4.191" x2="5.207" y2="5.207" width="0" layer="39"/>
 </package>
 <package name="S-PWQFN-N16">
 <wire x1="-2" y1="2" x2="2" y2="2" width="0.05" layer="51"/>
