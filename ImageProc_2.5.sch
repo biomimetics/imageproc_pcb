@@ -156,11 +156,15 @@ chip</description>
 <smd name="1" x="-0.4826" y="0" dx="0.508" dy="0.7112" layer="1"/>
 <smd name="2" x="0.4826" y="0" dx="0.508" dy="0.7112" layer="1"/>
 <text x="-0.889" y="0.6985" size="0.6096" layer="25" font="vector" ratio="24">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
+<text x="-0.9795" y="-1.343" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
 <rectangle x1="-0.475" y1="-0.23" x2="-0.325" y2="0.23" layer="51"/>
 <rectangle x1="0.325" y1="-0.23" x2="0.475" y2="0.23" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.1016" y1="-0.3048" x2="0.1016" y2="0.3048" layer="21"/>
+<wire x1="0.9398" y1="0.5588" x2="-0.9398" y2="0.5588" width="0.1524" layer="21"/>
+<wire x1="-0.9398" y1="0.5588" x2="-0.9398" y2="-0.5588" width="0.1524" layer="21"/>
+<wire x1="-0.9398" y1="-0.5588" x2="0.9398" y2="-0.5588" width="0.1524" layer="21"/>
+<wire x1="0.9398" y1="-0.5588" x2="0.9398" y2="0.5588" width="0.1524" layer="21"/>
 </package>
 <package name="1206">
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
@@ -216,22 +220,6 @@ chip</description>
 <smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
 <text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="0603-RES">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
 </package>
 <package name="1/6W-RES">
 <description>1/6W Thru-hole Resistor - *UNPROVEN*</description>
@@ -363,10 +351,14 @@ chip</description>
 <smd name="1" x="-0.4826" y="0" dx="0.508" dy="0.7112" layer="1"/>
 <smd name="2" x="0.4826" y="0" dx="0.508" dy="0.7112" layer="1"/>
 <text x="-0.889" y="0.6985" size="0.6096" layer="25" font="vector" ratio="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
+<text x="-1.0033" y="-1.2954" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
 <rectangle x1="-0.475" y1="-0.23" x2="-0.325" y2="0.23" layer="51"/>
 <rectangle x1="0.325" y1="-0.23" x2="0.475" y2="0.23" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="-0.9398" y1="0.5588" x2="0.9398" y2="0.5588" width="0.1524" layer="21"/>
+<wire x1="0.9398" y1="0.5588" x2="0.9398" y2="-0.5588" width="0.1524" layer="21"/>
+<wire x1="0.9398" y1="-0.5588" x2="-0.9398" y2="-0.5588" width="0.1524" layer="21"/>
+<wire x1="-0.9398" y1="-0.5588" x2="-0.9398" y2="0.5588" width="0.1524" layer="21"/>
 </package>
 <package name="CAP-PTH-SMALL">
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
@@ -417,20 +409,24 @@ chip</description>
 <rectangle x1="1.1" y1="-1.6" x2="2.2" y2="1.6" layer="51"/>
 </package>
 <package name="0603-CAP">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<wire x1="-0.4322" y1="0.3558" x2="0.4322" y2="0.3558" width="0.1016" layer="51"/>
+<wire x1="-0.4318" y1="-0.3556" x2="0.4318" y2="-0.3556" width="0.1016" layer="51"/>
+<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.3048" layer="21"/>
+<smd name="1" x="-0.7493" y="0" dx="0.9398" dy="1.016" layer="1"/>
+<smd name="2" x="0.7493" y="0" dx="0.9398" dy="1.016" layer="1"/>
+<text x="-1.4478" y="0.889" size="0.6096" layer="25" font="vector" ratio="25">&gt;NAME</text>
+<text x="-1.5494" y="-1.4986" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
+<rectangle x1="-0.8128" y1="-0.4064" x2="-0.4064" y2="0.4064" layer="51"/>
+<rectangle x1="0.4064" y1="-0.4064" x2="0.8128" y2="0.4064" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="-1.4224" y1="0.7112" x2="1.4224" y2="0.7112" width="0" layer="39"/>
+<wire x1="1.4224" y1="0.7112" x2="1.4224" y2="-0.7112" width="0" layer="39"/>
+<wire x1="1.4224" y1="-0.7112" x2="-1.4224" y2="-0.7112" width="0" layer="39"/>
+<wire x1="-1.4224" y1="-0.7112" x2="-1.4224" y2="0.7112" width="0" layer="39"/>
+<wire x1="-1.4224" y1="0.7112" x2="1.4224" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="0.7112" x2="1.4224" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="-0.7112" x2="-1.4224" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="-0.7112" x2="-1.4224" y2="0.7112" width="0.1524" layer="21"/>
 </package>
 <package name="CAP-PTH-5MM">
 <wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.2032" layer="21"/>
@@ -1153,19 +1149,23 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <text x="-1.27" y="-2.54" size="0.4064" layer="27">&gt;Value</text>
 </package>
 <package name="0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<wire x1="-0.4068" y1="0.3558" x2="0.4068" y2="0.3558" width="0.1016" layer="51"/>
+<wire x1="-0.4064" y1="-0.3556" x2="0.4064" y2="-0.3556" width="0.1016" layer="51"/>
+<smd name="1" x="-0.7493" y="0" dx="0.9398" dy="1.016" layer="1"/>
+<smd name="2" x="0.7493" y="0" dx="0.9398" dy="1.016" layer="1"/>
+<text x="-1.4224" y="0.9652" size="0.6096" layer="25" font="vector" ratio="25">&gt;NAME</text>
+<text x="-1.4478" y="-1.5748" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
+<rectangle x1="-0.8128" y1="-0.4064" x2="-0.4064" y2="0.4064" layer="51"/>
+<rectangle x1="0.4064" y1="-0.4064" x2="0.8128" y2="0.4064" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="1.4224" y1="0.7112" x2="-1.4224" y2="0.7112" width="0" layer="39"/>
+<wire x1="-1.4224" y1="0.7112" x2="-1.4224" y2="-0.7112" width="0" layer="39"/>
+<wire x1="-1.4224" y1="-0.7112" x2="1.4224" y2="-0.7112" width="0" layer="39"/>
+<wire x1="1.4224" y1="-0.7112" x2="1.4224" y2="0.7112" width="0" layer="39"/>
+<wire x1="-1.4224" y1="0.7112" x2="1.4224" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="0.7112" x2="1.4224" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="-0.7112" x2="-1.4224" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="-0.7112" x2="-1.4224" y2="0.7112" width="0.1524" layer="21"/>
 </package>
 <package name="CR54">
 <wire x1="2.8" y1="2.98" x2="-2.8" y2="2.98" width="0.127" layer="51"/>
@@ -1198,23 +1198,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <smd name="2" x="0" y="-4.9" dx="5.4" dy="4" layer="1"/>
 <text x="-2.54" y="1.27" size="0.4064" layer="25">&gt;Name</text>
 <text x="-2.54" y="-1.27" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="C0402">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="B82462G">
 <wire x1="3.15" y1="3.15" x2="-3.15" y2="3.15" width="0.127" layer="51"/>
@@ -1853,6 +1836,43 @@ chip</description>
 <wire x1="-2.6924" y1="2.7178" x2="-2.6924" y2="-2.6924" width="0" layer="39"/>
 <wire x1="-2.6924" y1="-2.6924" x2="2.6924" y2="-2.6924" width="0" layer="39"/>
 <wire x1="2.6924" y1="-2.6924" x2="2.6924" y2="2.7178" width="0" layer="39"/>
+</package>
+<package name="0603-RES">
+<wire x1="-0.4068" y1="0.3558" x2="0.4068" y2="0.3558" width="0.1016" layer="51"/>
+<wire x1="-0.4064" y1="-0.3556" x2="0.4318" y2="-0.3556" width="0.1016" layer="51"/>
+<smd name="1" x="-0.7493" y="0" dx="0.9398" dy="1.016" layer="1"/>
+<smd name="2" x="0.7493" y="0" dx="0.9398" dy="1.016" layer="1"/>
+<text x="-1.5494" y="0.889" size="0.6096" layer="25" font="vector" ratio="25">&gt;NAME</text>
+<text x="-1.5748" y="-1.4986" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
+<rectangle x1="-0.8128" y1="-0.4064" x2="-0.4064" y2="0.4064" layer="51"/>
+<rectangle x1="0.4064" y1="-0.4064" x2="0.8128" y2="0.4064" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.127" y1="-0.381" x2="0.127" y2="0.381" layer="21"/>
+<wire x1="1.4224" y1="0.7112" x2="-1.4224" y2="0.7112" width="0" layer="39"/>
+<wire x1="-1.4224" y1="0.7112" x2="-1.4224" y2="-0.7112" width="0" layer="39"/>
+<wire x1="-1.4224" y1="-0.7112" x2="1.4224" y2="-0.7112" width="0" layer="39"/>
+<wire x1="1.4224" y1="-0.7112" x2="1.4224" y2="0.7112" width="0" layer="39"/>
+<wire x1="-1.4224" y1="0.7112" x2="1.4224" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="0.7112" x2="1.4224" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="-0.7112" x2="-1.4224" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="-0.7112" x2="-1.4224" y2="0.7112" width="0.1524" layer="21"/>
+</package>
+<package name="C0402">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="0.635" x2="1.1938" y2="0.635" width="0" layer="39"/>
+<wire x1="1.1938" y1="0.635" x2="1.1938" y2="-0.635" width="0" layer="39"/>
+<wire x1="1.1938" y1="-0.635" x2="-1.1938" y2="-0.635" width="0" layer="39"/>
+<wire x1="-1.1938" y1="-0.635" x2="-1.1938" y2="0.635" width="0" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
 <symbols>
