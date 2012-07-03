@@ -3481,8 +3481,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="sup" width="0.254" drill="0">
-</class>
 </classes>
 <parts>
 <part name="C5" library="biomimetic" deviceset="CAP" device="0402-CAP" value="1uF"/>
@@ -3857,7 +3855,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="88.9" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
@@ -4108,7 +4106,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <wire x1="76.2" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="71.12" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
@@ -4417,7 +4415,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="IC4" gate="GPIO" pin="OC5/IC5/CN13/RD4"/>
 </segment>
 </net>
-<net name="CAM_D5" class="0">
+<net name="N#3" class="0">
 <segment>
 <wire x1="99.06" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
 <label x="101.6" y="127" size="1.778" layer="95"/>
@@ -4745,7 +4743,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="C19" gate="G$1" pin="2"/>
@@ -5184,7 +5182,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <wire x1="66.04" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="147.32" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
@@ -5893,7 +5891,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <wire x1="114.3" y1="154.94" x2="114.3" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="165.1" x2="109.22" y2="165.1" width="0.1524" layer="91"/>
@@ -6238,7 +6236,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="198.12" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CAM_D5" class="0">
+<net name="N#3" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="D5"/>
 <wire x1="215.9" y1="114.3" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
