@@ -3817,7 +3817,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="P12" library="wirepad" deviceset="SMD2" device="" value="EXT2"/>
 <part name="P13" library="wirepad" deviceset="SMD2" device="" value="EXT3"/>
 <part name="P14" library="wirepad" deviceset="SMD2" device="" value="EXT4"/>
-<part name="P15" library="wirepad" deviceset="SMD2" device="" value="EXT5"/>
 <part name="P16" library="wirepad" deviceset="SMD2" device="" value="EXT6"/>
 <part name="C41" library="biomimetic" deviceset="CAP" device="0402-CAP"/>
 <part name="R29" library="biomimetic" deviceset="RESISTOR" device="0402-RES"/>
@@ -4435,13 +4434,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="IC4" gate="GPIO" pin="OC5/IC5/CN13/RD4"/>
 </segment>
 </net>
-<net name="N#3" class="0">
-<segment>
-<wire x1="99.06" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
-<label x="101.6" y="127" size="1.778" layer="95"/>
-<pinref part="IC4" gate="GPIO" pin="OC6/IC6/CN14/RD5"/>
-</segment>
-</net>
 <net name="CAM_D6" class="0">
 <segment>
 <wire x1="99.06" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
@@ -4631,13 +4623,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="12.7" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EXT5" class="0">
-<segment>
-<pinref part="IC4" gate="GPIO" pin="IC1/!FLTA!/INT1/RD8"/>
-<wire x1="96.52" y1="119.38" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
-<label x="101.6" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="EXT6" class="0">
 <segment>
 <pinref part="IC4" gate="GPIO" pin="IC3/INT3/RD10"/>
@@ -4661,6 +4646,20 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="C15" gate="G$1" pin="1"/>
 <pinref part="IC4" gate="P_VCAP" pin="V+"/>
 <wire x1="111.76" y1="17.78" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAM_D5" class="0">
+<segment>
+<wire x1="99.06" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
+<label x="101.6" y="127" size="1.778" layer="95"/>
+<pinref part="IC4" gate="GPIO" pin="OC6/IC6/CN14/RD5"/>
+</segment>
+</net>
+<net name="IMU_IRQ" class="0">
+<segment>
+<pinref part="IC4" gate="GPIO" pin="IC1/!FLTA!/INT1/RD8"/>
+<wire x1="96.52" y1="119.38" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
+<label x="101.6" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -5899,13 +5898,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="NAME" x="210.82" y="162.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="218.44" y="162.56" size="1.778" layer="96"/>
 </instance>
-<instance part="P15" gate="1" x="228.6" y="160.02" smashed="yes">
+<instance part="P16" gate="1" x="228.6" y="160.02" smashed="yes">
 <attribute name="NAME" x="210.82" y="160.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="218.44" y="160.02" size="1.778" layer="96"/>
-</instance>
-<instance part="P16" gate="1" x="228.6" y="157.48" smashed="yes">
-<attribute name="NAME" x="210.82" y="157.48" size="1.778" layer="95"/>
-<attribute name="VALUE" x="218.44" y="157.48" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6465,18 +6460,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="236.22" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EXT5" class="0">
-<segment>
-<pinref part="P15" gate="1" pin="P"/>
-<wire x1="231.14" y1="160.02" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
-<label x="236.22" y="160.02" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="EXT6" class="0">
 <segment>
 <pinref part="P16" gate="1" pin="P"/>
-<wire x1="231.14" y1="157.48" x2="233.68" y2="157.48" width="0.1524" layer="91"/>
-<label x="236.22" y="157.48" size="1.778" layer="95"/>
+<wire x1="231.14" y1="160.02" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
+<label x="236.22" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -6484,6 +6472,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="IC9" gate="P_CPOUT" pin="V-"/>
 <pinref part="C38" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="27.94" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IMU_IRQ" class="0">
+<segment>
+<pinref part="IC9" gate="S" pin="INT"/>
+<wire x1="63.5" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
+<label x="68.58" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
