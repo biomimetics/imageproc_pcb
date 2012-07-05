@@ -5658,11 +5658,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="25.4" y1="20.32" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="3.3V"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="124.46" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC7" gate="S" pin="!SLEEP"/>
 <pinref part="U$17" gate="G$1" pin="V_BATT"/>
 <wire x1="35.56" y1="152.4" x2="30.48" y2="152.4" width="0.1524" layer="91"/>
@@ -5685,6 +5680,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="121.92" y1="27.94" x2="127" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="127" y1="27.94" x2="127" y2="22.86" width="0.1524" layer="91"/>
 <junction x="121.92" y="27.94"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="3.3V"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="231.14" y1="124.46" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
