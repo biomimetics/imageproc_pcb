@@ -4845,13 +4845,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="86.36" y1="114.3" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SDI1" class="0">
-<segment>
-<label x="66.04" y="111.76" size="1.778" layer="95"/>
-<pinref part="IC5" gate="S" pin="MISO"/>
-<wire x1="86.36" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SDO1" class="0">
 <segment>
 <label x="66.04" y="109.22" size="1.778" layer="95"/>
@@ -5011,6 +5004,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="IC5" gate="P_DVDD" pin="V+"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="25.4" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SDI1" class="0">
+<segment>
+<label x="66.04" y="111.76" size="1.778" layer="95"/>
+<pinref part="IC5" gate="S" pin="MISO"/>
+<wire x1="86.36" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -6251,7 +6251,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="198.12" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N#3" class="0">
+<net name="CAM_D5" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="D5"/>
 <wire x1="215.9" y1="114.3" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
