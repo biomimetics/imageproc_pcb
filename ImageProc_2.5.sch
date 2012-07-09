@@ -3817,19 +3817,23 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="P12" library="wirepad" deviceset="SMD2" device="" value="EXT2"/>
 <part name="P13" library="wirepad" deviceset="SMD2" device="" value="EXT3"/>
 <part name="P14" library="wirepad" deviceset="SMD2" device="" value="EXT4"/>
-<part name="P16" library="wirepad" deviceset="SMD2" device="" value="EXT6"/>
-<part name="C41" library="biomimetic" deviceset="CAP" device="0402-CAP"/>
-<part name="R29" library="biomimetic" deviceset="RESISTOR" device="0402-RES"/>
-<part name="C42" library="biomimetic" deviceset="CAP" device="0402-CAP"/>
-<part name="R30" library="biomimetic" deviceset="RESISTOR" device="0402-RES"/>
-<part name="C43" library="biomimetic" deviceset="CAP" device="0402-CAP" value="xnF"/>
-<part name="R31" library="biomimetic" deviceset="RESISTOR" device="0402-RES"/>
-<part name="C44" library="biomimetic" deviceset="CAP" device="0402-CAP"/>
-<part name="R32" library="biomimetic" deviceset="RESISTOR" device="0402-RES"/>
+<part name="P16" library="wirepad" deviceset="SMD2" device="" value="EXT5"/>
+<part name="C41" library="biomimetic" deviceset="CAP" device="0402-CAP" value="2.2nF"/>
+<part name="R29" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="1k"/>
+<part name="C42" library="biomimetic" deviceset="CAP" device="0402-CAP" value="2.2nF"/>
+<part name="R30" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="1k"/>
+<part name="C43" library="biomimetic" deviceset="CAP" device="0402-CAP" value="2.2nF"/>
+<part name="R31" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="1k"/>
+<part name="C44" library="biomimetic" deviceset="CAP" device="0402-CAP" value="2.2nF"/>
+<part name="R32" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="1k"/>
 <part name="GND20" library="biomimetic" deviceset="GND" device=""/>
 <part name="GND26" library="biomimetic" deviceset="GND" device=""/>
 <part name="GND33" library="biomimetic" deviceset="GND" device=""/>
 <part name="GND46" library="biomimetic" deviceset="GND" device=""/>
+<part name="P15" library="wirepad" deviceset="SMD2" device="" value="EXT5"/>
+<part name="P17" library="wirepad" deviceset="SMD2" device="" value="EXT5"/>
+<part name="P+1" library="biomimetic" deviceset="3.3V" device=""/>
+<part name="GND24" library="biomimetic" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4237,21 +4241,21 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <net name="YW_LED" class="0">
 <segment>
 <wire x1="33.02" y1="116.84" x2="35.56" y2="116.84" width="0.1524" layer="91"/>
-<label x="12.7" y="116.84" size="1.778" layer="95"/>
+<label x="7.62" y="116.84" size="1.778" layer="95"/>
 <pinref part="IC4" gate="GPIO" pin="!U2RTS!/AN14/RB14"/>
 </segment>
 </net>
 <net name="GN_LED" class="0">
 <segment>
 <wire x1="33.02" y1="119.38" x2="35.56" y2="119.38" width="0.1524" layer="91"/>
-<label x="12.7" y="119.38" size="1.778" layer="95"/>
+<label x="7.62" y="119.38" size="1.778" layer="95"/>
 <pinref part="IC4" gate="GPIO" pin="TDI/AN13/RB13"/>
 </segment>
 </net>
 <net name="RD_LED" class="0">
 <segment>
 <wire x1="33.02" y1="121.92" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
-<label x="12.7" y="121.92" size="1.778" layer="95"/>
+<label x="7.62" y="121.92" size="1.778" layer="95"/>
 <pinref part="IC4" gate="GPIO" pin="TCK/AN12/RB12"/>
 </segment>
 </net>
@@ -4374,21 +4378,21 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <net name="RADIO_SLP_TR" class="0">
 <segment>
 <wire x1="33.02" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
-<label x="12.7" y="114.3" size="1.778" layer="95"/>
+<label x="7.62" y="114.3" size="1.778" layer="95"/>
 <pinref part="IC4" gate="GPIO" pin="AN15/OCFB/CN12/RB15"/>
 </segment>
 </net>
 <net name="RADIO_IRQ" class="0">
 <segment>
 <wire x1="33.02" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
-<label x="12.7" y="137.16" size="1.778" layer="95"/>
+<label x="7.62" y="137.16" size="1.778" layer="95"/>
 <pinref part="IC4" gate="GPIO" pin="IC4/INT4/RD11"/>
 </segment>
 </net>
 <net name="LOWBATT_IRQ" class="0">
 <segment>
 <wire x1="33.02" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
-<label x="12.7" y="139.7" size="1.778" layer="95"/>
+<label x="7.62" y="139.7" size="1.778" layer="95"/>
 <pinref part="IC4" gate="GPIO" pin="IC2/!U1CTS!/!FLTB!/INT2/RD9"/>
 </segment>
 </net>
@@ -4465,14 +4469,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <net name="CAM_PWDN" class="0">
 <segment>
 <wire x1="35.56" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
-<label x="12.7" y="106.68" size="1.778" layer="95"/>
+<label x="7.62" y="106.68" size="1.778" layer="95"/>
 <pinref part="IC4" gate="GPIO" pin="PGEC2/SOSCO/T1CK/CN0/RC14"/>
 </segment>
 </net>
 <net name="CAM_VSYNC" class="0">
 <segment>
 <wire x1="35.56" y1="109.22" x2="33.02" y2="109.22" width="0.1524" layer="91"/>
-<label x="12.7" y="109.22" size="1.778" layer="95"/>
+<label x="7.62" y="109.22" size="1.778" layer="95"/>
 <pinref part="IC4" gate="GPIO" pin="PGED2/SOSCI/T4CK/CN1/RC13"/>
 </segment>
 </net>
@@ -4595,41 +4599,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="IC4" gate="SERIAL" pin="U2RX/SDA2/CN17/RF4"/>
 </segment>
 </net>
-<net name="EXT1" class="0">
-<segment>
-<pinref part="IC4" gate="GPIO" pin="PGEC3/AN1/VREF-/CN3/RB1"/>
-<wire x1="35.56" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
-<label x="12.7" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT2" class="0">
-<segment>
-<pinref part="IC4" gate="GPIO" pin="AN3/INDX/CN5/RB3"/>
-<wire x1="35.56" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
-<label x="12.7" y="129.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT3" class="0">
-<segment>
-<pinref part="IC4" gate="GPIO" pin="AN4/QEA/IC7/CN6/RB4"/>
-<wire x1="35.56" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
-<label x="12.7" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT4" class="0">
-<segment>
-<pinref part="IC4" gate="GPIO" pin="AN5/QEB/IC8/CN7/RB5"/>
-<wire x1="35.56" y1="124.46" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
-<label x="12.7" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT6" class="0">
-<segment>
-<pinref part="IC4" gate="GPIO" pin="IC3/INT3/RD10"/>
-<wire x1="96.52" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
-<label x="101.6" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
@@ -4660,6 +4629,41 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="IC4" gate="GPIO" pin="IC1/!FLTA!/INT1/RD8"/>
 <wire x1="96.52" y1="119.38" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
 <label x="101.6" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AN1/RB1" class="0">
+<segment>
+<pinref part="IC4" gate="GPIO" pin="PGEC3/AN1/VREF-/CN3/RB1"/>
+<wire x1="35.56" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
+<label x="7.62" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AN3/INDX/RB3" class="0">
+<segment>
+<pinref part="IC4" gate="GPIO" pin="AN3/INDX/CN5/RB3"/>
+<wire x1="35.56" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
+<label x="7.62" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AN4/QEA/IC7/RB4" class="0">
+<segment>
+<pinref part="IC4" gate="GPIO" pin="AN4/QEA/IC7/CN6/RB4"/>
+<wire x1="35.56" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
+<label x="7.62" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AN5/QEB/IC8/RB5" class="0">
+<segment>
+<pinref part="IC4" gate="GPIO" pin="AN5/QEB/IC8/CN7/RB5"/>
+<wire x1="35.56" y1="124.46" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
+<label x="7.62" y="124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IC3/INT3/RD10" class="0">
+<segment>
+<pinref part="IC4" gate="GPIO" pin="IC3/INT3/RD10"/>
+<wire x1="96.52" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
+<label x="101.6" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -5882,26 +5886,29 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="U$20" gate="G$1" x="180.34" y="78.74"/>
 <instance part="GND5" gate="1" x="180.34" y="60.96"/>
 <instance part="GND12" gate="1" x="190.5" y="83.82"/>
-<instance part="P11" gate="1" x="228.6" y="170.18" smashed="yes">
-<attribute name="NAME" x="210.82" y="170.18" size="1.778" layer="95"/>
-<attribute name="VALUE" x="218.44" y="170.18" size="1.778" layer="96"/>
+<instance part="P11" gate="1" x="213.36" y="170.18" smashed="yes">
+<attribute name="NAME" x="205.74" y="170.18" size="1.778" layer="95"/>
 </instance>
-<instance part="P12" gate="1" x="228.6" y="167.64" smashed="yes">
-<attribute name="NAME" x="210.82" y="167.64" size="1.778" layer="95"/>
-<attribute name="VALUE" x="218.44" y="167.64" size="1.778" layer="96"/>
+<instance part="P12" gate="1" x="213.36" y="167.64" smashed="yes">
+<attribute name="NAME" x="205.74" y="167.64" size="1.778" layer="95"/>
 </instance>
-<instance part="P13" gate="1" x="228.6" y="165.1" smashed="yes">
-<attribute name="NAME" x="210.82" y="165.1" size="1.778" layer="95"/>
-<attribute name="VALUE" x="218.44" y="165.1" size="1.778" layer="96"/>
+<instance part="P13" gate="1" x="213.36" y="165.1" smashed="yes">
+<attribute name="NAME" x="205.74" y="165.1" size="1.778" layer="95"/>
 </instance>
-<instance part="P14" gate="1" x="228.6" y="162.56" smashed="yes">
-<attribute name="NAME" x="210.82" y="162.56" size="1.778" layer="95"/>
-<attribute name="VALUE" x="218.44" y="162.56" size="1.778" layer="96"/>
+<instance part="P14" gate="1" x="213.36" y="162.56" smashed="yes">
+<attribute name="NAME" x="205.74" y="162.56" size="1.778" layer="95"/>
 </instance>
-<instance part="P16" gate="1" x="228.6" y="160.02" smashed="yes">
-<attribute name="NAME" x="210.82" y="160.02" size="1.778" layer="95"/>
-<attribute name="VALUE" x="218.44" y="160.02" size="1.778" layer="96"/>
+<instance part="P16" gate="1" x="213.36" y="160.02" smashed="yes">
+<attribute name="NAME" x="205.74" y="160.02" size="1.778" layer="95"/>
 </instance>
+<instance part="P15" gate="1" x="213.36" y="157.48" smashed="yes">
+<attribute name="NAME" x="205.74" y="157.48" size="1.778" layer="95"/>
+</instance>
+<instance part="P17" gate="1" x="213.36" y="172.72" smashed="yes">
+<attribute name="NAME" x="205.74" y="172.72" size="1.778" layer="95"/>
+</instance>
+<instance part="P+1" gate="G$1" x="218.44" y="175.26"/>
+<instance part="GND24" gate="1" x="218.44" y="152.4"/>
 </instances>
 <busses>
 </busses>
@@ -6023,6 +6030,12 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="C38" gate="G$1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="30.48" y1="17.78" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P15" gate="1" pin="P"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="215.9" y1="157.48" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="157.48" x2="218.44" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAM_PCLK" class="0">
@@ -6193,6 +6206,12 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="71.12" y1="27.94" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="27.94" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
 <junction x="71.12" y="27.94"/>
+</segment>
+<segment>
+<pinref part="P17" gate="1" pin="P"/>
+<wire x1="215.9" y1="172.72" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="G$1" pin="3.3V"/>
+<wire x1="218.44" y1="172.72" x2="218.44" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="40MHZ" class="0">
@@ -6432,41 +6451,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="198.12" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EXT1" class="0">
-<segment>
-<pinref part="P11" gate="1" pin="P"/>
-<wire x1="231.14" y1="170.18" x2="233.68" y2="170.18" width="0.1524" layer="91"/>
-<label x="236.22" y="170.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT2" class="0">
-<segment>
-<pinref part="P12" gate="1" pin="P"/>
-<wire x1="231.14" y1="167.64" x2="233.68" y2="167.64" width="0.1524" layer="91"/>
-<label x="236.22" y="167.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT3" class="0">
-<segment>
-<pinref part="P13" gate="1" pin="P"/>
-<wire x1="231.14" y1="165.1" x2="233.68" y2="165.1" width="0.1524" layer="91"/>
-<label x="236.22" y="165.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT4" class="0">
-<segment>
-<pinref part="P14" gate="1" pin="P"/>
-<wire x1="231.14" y1="162.56" x2="233.68" y2="162.56" width="0.1524" layer="91"/>
-<label x="236.22" y="162.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EXT6" class="0">
-<segment>
-<pinref part="P16" gate="1" pin="P"/>
-<wire x1="231.14" y1="160.02" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
-<label x="236.22" y="160.02" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="IC9" gate="P_CPOUT" pin="V-"/>
@@ -6479,6 +6463,41 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="IC9" gate="S" pin="INT"/>
 <wire x1="63.5" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
 <label x="68.58" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AN1/RB1" class="0">
+<segment>
+<pinref part="P11" gate="1" pin="P"/>
+<wire x1="215.9" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
+<label x="220.98" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AN3/INDX/RB3" class="0">
+<segment>
+<pinref part="P12" gate="1" pin="P"/>
+<wire x1="215.9" y1="167.64" x2="218.44" y2="167.64" width="0.1524" layer="91"/>
+<label x="220.98" y="167.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AN4/QEA/IC7/RB4" class="0">
+<segment>
+<pinref part="P13" gate="1" pin="P"/>
+<wire x1="215.9" y1="165.1" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
+<label x="220.98" y="165.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AN5/QEB/IC8/RB5" class="0">
+<segment>
+<pinref part="P14" gate="1" pin="P"/>
+<wire x1="215.9" y1="162.56" x2="218.44" y2="162.56" width="0.1524" layer="91"/>
+<label x="220.98" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IC3/INT3/RD10" class="0">
+<segment>
+<pinref part="P16" gate="1" pin="P"/>
+<wire x1="215.9" y1="160.02" x2="218.44" y2="160.02" width="0.1524" layer="91"/>
+<label x="220.98" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
