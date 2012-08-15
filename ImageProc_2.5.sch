@@ -3493,7 +3493,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Ryan Julian (ryanjulian@berkeley.edu)"/>
-<attribute name="REVISION" value="1"/>
+<attribute name="NAME" value="ImageProc 2.5"/>
+<attribute name="REVISION" value="A"/>
 <attribute name="YEAR" value="2012"/>
 </attributes>
 <variantdefs>
@@ -3830,8 +3831,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND26" library="biomimetic" deviceset="GND" device=""/>
 <part name="GND33" library="biomimetic" deviceset="GND" device=""/>
 <part name="GND46" library="biomimetic" deviceset="GND" device=""/>
-<part name="P15" library="wirepad" deviceset="SMD2" device="" value="EXT5"/>
-<part name="P17" library="wirepad" deviceset="SMD2" device="" value="EXT5"/>
+<part name="GND" library="wirepad" deviceset="SMD2" device="" value="EXT5"/>
+<part name="3.3V" library="wirepad" deviceset="SMD2" device="" value="EXT5"/>
 <part name="P+1" library="biomimetic" deviceset="3.3V" device=""/>
 <part name="GND24" library="biomimetic" deviceset="GND" device=""/>
 </parts>
@@ -5901,10 +5902,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="P16" gate="1" x="213.36" y="160.02" smashed="yes">
 <attribute name="NAME" x="205.74" y="160.02" size="1.778" layer="95"/>
 </instance>
-<instance part="P15" gate="1" x="213.36" y="157.48" smashed="yes">
+<instance part="GND" gate="1" x="213.36" y="157.48" smashed="yes">
 <attribute name="NAME" x="205.74" y="157.48" size="1.778" layer="95"/>
 </instance>
-<instance part="P17" gate="1" x="213.36" y="172.72" smashed="yes">
+<instance part="3.3V" gate="1" x="213.36" y="172.72" smashed="yes">
 <attribute name="NAME" x="205.74" y="172.72" size="1.778" layer="95"/>
 </instance>
 <instance part="P+1" gate="G$1" x="218.44" y="175.26"/>
@@ -6032,7 +6033,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="30.48" y1="17.78" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P15" gate="1" pin="P"/>
+<pinref part="GND" gate="1" pin="P"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="215.9" y1="157.48" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="157.48" x2="218.44" y2="154.94" width="0.1524" layer="91"/>
@@ -6208,7 +6209,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <junction x="71.12" y="27.94"/>
 </segment>
 <segment>
-<pinref part="P17" gate="1" pin="P"/>
+<pinref part="3.3V" gate="1" pin="P"/>
 <wire x1="215.9" y1="172.72" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
 <wire x1="218.44" y1="172.72" x2="218.44" y2="175.26" width="0.1524" layer="91"/>
