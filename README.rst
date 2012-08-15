@@ -30,10 +30,10 @@ Citing the boards:
      <http://dx.doi.org/10.1109/IROS.2011.6094581>`_
    | In IROS 2011. San Francisco, CA, USA.
 
-- *For ImageProc v2.5-x:*
+ - *For ImageProc v2.5-x:*
 
    | Ryan C. Julian, Douglas D. Hutchings, and Ronald S. Fearing (2012)
-   | This design is pending publications.
+   | This design is pending publication.
 
  This material is based upon work supported by the National Science
  Foundation under Grant No. IIS-0705429 and IIS-0931463. Any opinions,
