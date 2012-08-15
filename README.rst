@@ -23,14 +23,14 @@ Citing the boards:
      <http://dx.doi.org/10.1109/IROS.2009.5354337>`_
    | In IROS 2009. St. Louis, MO, USA.
 
- - *For ImageProc v.2.0-v2.4.*:*
+ - *For ImageProc v.2.0-v2.4-x:*
 
    | Stanley S. Baek, Fernando L. Garcia Bermudez, and Ronald S. Fearing (2011)
    | `Flight Control for Target Seeking by 13 gram Ornithopter
      <http://dx.doi.org/10.1109/IROS.2011.6094581>`_
    | In IROS 2011. San Francisco, CA, USA.
 
-- *For ImageProc v2.5.*:*
+- *For ImageProc v2.5-x:*
 
    | Ryan C. Julian, Douglas D. Hutchings, and Ronald S. Fearing (2012)
    | This design is pending publications.
