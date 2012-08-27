@@ -8,7 +8,7 @@
 </settings>
 <grid distance="3" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Ground" color="2" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Power" color="5" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,9 +28,9 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -172,7 +172,7 @@
 <text x="49.370025" y="5.628090625" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">Douglas Hutchings</text>
 <text x="49.3776" y="6.5532" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">Ryan Julian</text>
 <text x="49.3776" y="1.3716" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">2012.07.26</text>
-<text x="49.3776" y="0.4572" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">ImageProc 2.5 Rev. A</text>
+<text x="49.3776" y="0.4572" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">ImageProc 2.5 Rev. B</text>
 <text x="49.3776" y="4.4196" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">Biomimetic</text>
 <text x="49.3776" y="3.5052" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">Millisystems</text>
 <text x="49.3776" y="2.5908" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">Laboratory</text>
@@ -8397,19 +8397,6 @@ design rules under a new name.</description>
 <wire x1="33.7566" y1="21.8694" x2="33.2994" y2="21.4122" width="0.1524" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,1,0973077d07790977"/>
-<approved hash="19,1,75af5424aee5b02b"/>
-<approved hash="19,1,76591bb0de4ebd02"/>
-<approved hash="19,1,3da9514099becb52"/>
-<approved hash="19,1,2c3f0c54e8b5f8bb"/>
-<approved hash="19,1,cc3fc201c63ec800"/>
-<approved hash="19,1,6686b78d8acce486"/>
-<approved hash="19,1,11d20cbb3f21ace9"/>
-<approved hash="19,1,ccbfc281c5decbe0"/>
-<approved hash="19,1,5b22474b4971eb19"/>
-<approved hash="19,1,3ef6ee1dc25ca2d6"/>
-</errors>
 </board>
 </drawing>
 </eagle>
