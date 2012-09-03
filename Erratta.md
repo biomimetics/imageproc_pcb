@@ -45,3 +45,13 @@ connected with ground.
 Short Term Resolution: Airwire between than pad and a source of ground.
 
 Long Term Resoultion: A new route that connects ground.
+
+
+4.  C40 and C37 mix-up
+
+Symptom: C40, the bypass capacator for the flash mem, and C37, the bypass capacator for the IMU, have 
+been mislabled as eachother.
+
+Short Term resolution: Populate both C37 and C40.  Both C37 and C40 have the same value.
+
+Long Term: Re-lable the eagle file.
