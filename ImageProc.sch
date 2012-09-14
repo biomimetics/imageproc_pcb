@@ -3843,6 +3843,12 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="3.3V" library="wirepad" deviceset="SMD2" device="" value="EXT5"/>
 <part name="P+1" library="biomimetic" deviceset="3.3V" device=""/>
 <part name="GND24" library="biomimetic" deviceset="GND" device=""/>
+<part name="PWM1" library="wirepad" deviceset="SMD2" device="" value="EXT5">
+<attribute name="PWM1" value="MOTOR_C_IN_2"/>
+</part>
+<part name="PWM2" library="wirepad" deviceset="SMD2" device="" value="EXT5">
+<attribute name="PWM2" value="MOTOR_D_IN_2"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5925,6 +5931,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </instance>
 <instance part="P+1" gate="G$1" x="218.44" y="165.1"/>
 <instance part="GND24" gate="1" x="218.44" y="142.24"/>
+<instance part="PWM1" gate="1" x="134.62" y="124.46" smashed="yes">
+<attribute name="NAME" x="127" y="124.46" size="1.778" layer="95"/>
+<attribute name="PWM1" x="152.4" y="124.46" size="1.778" layer="96" display="both"/>
+</instance>
+<instance part="PWM2" gate="1" x="134.62" y="119.38" smashed="yes">
+<attribute name="NAME" x="127" y="119.38" size="1.778" layer="95"/>
+<attribute name="PWM2" x="152.4" y="119.38" size="1.778" layer="96" display="both"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6219,6 +6233,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="215.9" y1="162.56" x2="218.44" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
 <wire x1="218.44" y1="162.56" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="162.56" x2="218.44" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
@@ -6510,6 +6525,18 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
 <label x="127" y="157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MOTOR_C_IN2" class="0">
+<segment>
+<pinref part="PWM1" gate="1" pin="P"/>
+<wire x1="137.16" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MOTOR_D_IN2" class="0">
+<segment>
+<pinref part="PWM2" gate="1" pin="P"/>
+<wire x1="137.16" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
