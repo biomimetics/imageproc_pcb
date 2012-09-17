@@ -9,8 +9,8 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="5" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
@@ -28,8 +28,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
@@ -64,44 +64,44 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="98" name="Guide" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="yes"/>
+<layer number="98" name="Guide" color="14" fill="1" visible="no" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -112,7 +112,7 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -3028,7 +3028,7 @@ Digi-Key P/N: 296-29513-6-ND</description>
 <connect gate="P_VCP" pin="V+" pad="9"/>
 <connect gate="P_VINT" pin="V-" pad="12"/>
 <connect gate="P_VM" pin="V+" pad="10"/>
-<connect gate="P_VM" pin="V-" pad="11 PPAD" route="any"/>
+<connect gate="P_VM" pin="V-" pad="11 PPAD"/>
 <connect gate="S" pin="!FAULT" pad="6"/>
 <connect gate="S" pin="!SLEEP" pad="15"/>
 <connect gate="S" pin="AIN1" pad="14"/>
@@ -3495,7 +3495,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attributes>
 <attribute name="AUTHOR" value="Ryan Julian (ryanjulian@berkeley.edu)"/>
 <attribute name="DESIGN_NAME" value="ImageProc 2.5"/>
-<attribute name="REVISION" value="A"/>
+<attribute name="REVISION" value="B"/>
 <attribute name="YEAR" value="2012"/>
 </attributes>
 <variantdefs>
@@ -3592,8 +3592,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="U$13" library="biomimetic" deviceset="V_BATT" device=""/>
 <part name="GND4" library="biomimetic" deviceset="GND" device=""/>
 <part name="P+12" library="biomimetic" deviceset="3.3V" device=""/>
-<part name="GND37" library="supply1" deviceset="GND" device=""/>
-<part name="P+14" library="biomimetic" deviceset="3.3V" device=""/>
 <part name="P+19" library="biomimetic" deviceset="3.3V" device=""/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="R5" library="biomimetic" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
@@ -3845,6 +3843,12 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="3.3V" library="wirepad" deviceset="SMD2" device="" value="EXT5"/>
 <part name="P+1" library="biomimetic" deviceset="3.3V" device=""/>
 <part name="GND24" library="biomimetic" deviceset="GND" device=""/>
+<part name="PWM1" library="wirepad" deviceset="SMD2" device="" value="EXT5">
+<attribute name="PWM1" value="MOTOR_C_IN_2"/>
+</part>
+<part name="PWM2" library="wirepad" deviceset="SMD2" device="" value="EXT5">
+<attribute name="PWM2" value="MOTOR_D_IN_2"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5809,8 +5813,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="LED3" gate="G$1" x="27.94" y="109.22" rot="R90"/>
 <instance part="R27" gate="G$1" x="50.8" y="119.38"/>
 <instance part="R28" gate="G$1" x="50.8" y="109.22"/>
-<instance part="GND37" gate="1" x="114.3" y="142.24"/>
-<instance part="P+14" gate="G$1" x="114.3" y="167.64"/>
 <instance part="P+7" gate="G$1" x="71.12" y="30.48"/>
 <instance part="C40" gate="G$1" x="76.2" y="20.32"/>
 <instance part="GND9" gate="1" x="71.12" y="7.62"/>
@@ -5929,18 +5931,19 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </instance>
 <instance part="P+1" gate="G$1" x="218.44" y="165.1"/>
 <instance part="GND24" gate="1" x="218.44" y="142.24"/>
+<instance part="PWM1" gate="1" x="134.62" y="124.46" smashed="yes">
+<attribute name="NAME" x="127" y="124.46" size="1.778" layer="95"/>
+<attribute name="PWM1" x="152.4" y="124.46" size="1.778" layer="96" display="both"/>
+</instance>
+<instance part="PWM2" gate="1" x="134.62" y="119.38" smashed="yes">
+<attribute name="NAME" x="127" y="119.38" size="1.778" layer="95"/>
+<attribute name="PWM2" x="152.4" y="119.38" size="1.778" layer="96" display="both"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<wire x1="114.3" y1="144.78" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="154.94" x2="109.22" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="GND37" gate="1" pin="GND"/>
-<label x="116.84" y="154.94" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
-</segment>
 <segment>
 <pinref part="GND41" gate="1" pin="GND"/>
 <wire x1="147.32" y1="149.86" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
@@ -6056,6 +6059,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="215.9" y1="147.32" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="147.32" x2="218.44" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="3"/>
+<wire x1="109.22" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
+<label x="127" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAM_PCLK" class="0">
@@ -6176,24 +6184,17 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="!RESET" class="0">
 <segment>
-<label x="116.84" y="160.02" size="1.778" layer="95"/>
-<wire x1="109.22" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <wire x1="104.14" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 <label x="91.44" y="73.66" size="1.778" layer="95"/>
 <pinref part="IC10" gate="S" pin="!RESET"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="5"/>
+<wire x1="109.22" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
+<label x="127" y="149.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
-<segment>
-<wire x1="109.22" y1="157.48" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="157.48" x2="114.3" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="P+14" gate="G$1" pin="3.3V"/>
-<label x="116.84" y="157.48" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
-</segment>
 <segment>
 <wire x1="104.14" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="78.74" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
@@ -6232,6 +6233,12 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="215.9" y1="162.56" x2="218.44" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
 <wire x1="218.44" y1="162.56" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="162.56" x2="218.44" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="4"/>
+<wire x1="109.22" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
+<label x="127" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="40MHZ" class="0">
@@ -6239,20 +6246,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="215.9" y1="96.52" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
 <label x="198.12" y="96.52" size="1.778" layer="95"/>
 <pinref part="JP4" gate="G$1" pin="XCLK"/>
-</segment>
-</net>
-<net name="PGD" class="0">
-<segment>
-<label x="116.84" y="152.4" size="1.778" layer="95"/>
-<wire x1="109.22" y1="152.4" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="PGC" class="0">
-<segment>
-<label x="116.84" y="149.86" size="1.778" layer="95"/>
-<wire x1="109.22" y1="149.86" x2="111.76" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="CAM_D2" class="0">
@@ -6518,6 +6511,32 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="P16" gate="1" pin="P"/>
 <wire x1="215.9" y1="149.86" x2="218.44" y2="149.86" width="0.1524" layer="91"/>
 <label x="220.98" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PGC" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="160.02" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
+<label x="127" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PGD" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
+<label x="127" y="157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MOTOR_C_IN2" class="0">
+<segment>
+<pinref part="PWM1" gate="1" pin="P"/>
+<wire x1="137.16" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MOTOR_D_IN2" class="0">
+<segment>
+<pinref part="PWM2" gate="1" pin="P"/>
+<wire x1="137.16" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
