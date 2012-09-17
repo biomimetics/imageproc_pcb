@@ -1,3 +1,12 @@
+Image Proc 2.5 version B
+Erratta List.
+Last updated 9-17-2012
+
+No errors so far.
+
+
+
+
 Image Proc 2.5 version A
 Erratta List
 
