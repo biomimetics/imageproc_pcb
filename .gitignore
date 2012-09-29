@@ -4,3 +4,7 @@
 *.pdf
 doc/*
 gerber/*
+dru/
+cam/
+lbr/
+gerb/*
