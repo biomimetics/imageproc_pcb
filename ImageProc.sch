@@ -67,7 +67,7 @@
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="95" name="Names" color="7" fill="1" visible="no" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="yes"/>
 <layer number="98" name="Guide" color="14" fill="1" visible="no" active="yes"/>
@@ -2997,8 +2997,8 @@ Digi-Key P/N: 576-3589-6-ND</description>
 <connect gate="SERIAL" pin="AN2/!SS1!/CN4/RB2" pad="14"/>
 <connect gate="SERIAL" pin="OSC2/CLKO/RC15" pad="40"/>
 <connect gate="SERIAL" pin="SCK2/CN8/RG6" pad="4"/>
-<connect gate="SERIAL" pin="SCL1/RG2" pad="36"/>
-<connect gate="SERIAL" pin="SDA1/RG3" pad="37"/>
+<connect gate="SERIAL" pin="SCL1/RG2" pad="37"/>
+<connect gate="SERIAL" pin="SDA1/RG3" pad="36"/>
 <connect gate="SERIAL" pin="SDI2/CN9/RG7" pad="5"/>
 <connect gate="SERIAL" pin="SDO2/CN10/RG8" pad="6"/>
 <connect gate="SERIAL" pin="U1RX/SDI1/RF2" pad="34"/>
@@ -3495,7 +3495,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attributes>
 <attribute name="AUTHOR" value="Ryan Julian (ryanjulian@berkeley.edu)"/>
 <attribute name="DESIGN_NAME" value="ImageProc 2.5"/>
-<attribute name="REVISION" value="B"/>
+<attribute name="REVISION" value="C"/>
 <attribute name="YEAR" value="2012"/>
 </attributes>
 <variantdefs>
