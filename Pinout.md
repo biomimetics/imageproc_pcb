@@ -17,7 +17,7 @@
 | 15         | PGEC3/AN1/VREF-/CN3/RB1   | -                 | AN1/RB1          | Auxiliary pad 1               |
 | 16         | PGED3/AN0/VREF+/CN2/RB0   | AN0               | BATT_LEVEL       | Battery level sense           |
 | 17         | PGEC1/AN6/OCFA/RB6        | PGEC1             | PGC              | In-circuit debugger (JP1.1)   |
-| 18         | PGED1/AN7/RB7             | PGED1             | PGD              | In-circuit debugger (JP1.2)   |            |
+| 18         | PGED1/AN7/RB7             | PGED1             | PGD              | In-circuit debugger (JP1.2)   |
 | 19         | AVDD                      | AVDD              | 3.3V             | Analog power                  |
 | 20         | AVSS                      | AVSS              | GND              | Analog ground                 |
 | 21         | nU2CTS/AN8/RB8            | AN8               | MOTOR_A_BEMF     | Motor A BEMF sense            |
