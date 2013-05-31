@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -171,7 +171,7 @@
 <text x="4.8768" y="1.4478" size="0.6096" layer="25" font="vector" ratio="25">D+</text>
 <text x="49.370025" y="5.628090625" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">Douglas Hutchings</text>
 <text x="49.3776" y="6.5532" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">Ryan Julian</text>
-<text x="49.3776" y="1.3716" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">2013.02.01</text>
+<text x="49.3776" y="1.3716" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">2013.04.01</text>
 <text x="49.3776" y="0.4572" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">ImageProc 2.5 Rev. C</text>
 <text x="49.3776" y="4.4196" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">Biomimetic</text>
 <text x="49.3776" y="3.5052" size="0.6096" layer="22" font="vector" ratio="25" rot="MR0">Millisystems</text>
@@ -5297,7 +5297,7 @@ chip</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
